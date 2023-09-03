@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    color: white;
+}
+.caracteristicas{
+    background-image: linear-gradient(180deg, #5e296b 0, #3c3049 25%, #3c2a5e 50%, #261f3b 75%, #2b2642 100%);
+    width: 980px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0cqb;
+}
+header {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    height: 60px;
+}
+
